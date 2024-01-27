@@ -36,7 +36,7 @@ yum install git -y
 
 ## Download the settings.xml file into /home/USER/.m2 to provide Authorization to Nexus
 mkdir /home/jenkinsmaster/.m2
-wget https://raw.githubusercontent.com/awanmbandi/realworld-cicd-pipeline-project/maven-sonarqube-nexus-jenkins/settings.xml -P /home/jenkinsmaster/.m2/
+wget https://raw.githubusercontent.com/mimiluvgit/Jenkins-Master-Client-Project/maven-sonaube-nexus-jenkins/settings.xml -P /home/jenkinsmaster/.m2/
 chown jenkinsmaster:jenkinsmaster /home/jenkinsmaster/.m2/
 chown jenkinsmaster:jenkinsmaster /home/jenkinsmaster/.m2/settings.xml
 ```
